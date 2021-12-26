@@ -25,7 +25,7 @@ typora2checereto --baseUrl <baseUrl> --key <key>
 CHV\Image::uploadToWebsite($source);
 ```
 
-改成这
+改成:
 
 ```bash
 CHV\Image::uploadToWebsite($source, '<usernameOrId>');
