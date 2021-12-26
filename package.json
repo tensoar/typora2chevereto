@@ -1,0 +1,32 @@
+{
+  "name": "typora2chevereto",
+  "version": "0.0.1",
+  "description": "upload image to chevereto in typora",
+  "main": "dist/typora2checereto.js",
+  "bin": "dist/typora2checereto.js",
+  "author": "tensoar",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx tsc && node dist/typora2checereto.js",
+    "packageWin": "pkg . -t node14-win-x64 --out-path ./out",
+    "packageLinux": "pkg . -t node14-linux-x64 --out-path ./out"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.178",
+    "@types/mime-types": "^2.1.1",
+    "@types/minimist": "^1.2.2",
+    "@types/node": "12.12.6",
+    "@types/qs": "^6.9.7",
+    "pkg": "^5.5.1",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "class-validator": "^0.13.2",
+    "lodash": "^4.17.21",
+    "mime-types": "^2.1.34",
+    "minimist": "^1.2.5",
+    "p-limit": "3.1.0",
+    "qs": "^6.10.2"
+  }
+}
