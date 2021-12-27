@@ -9,7 +9,7 @@
 其中`setting`:
 
 ```bash
-typora2checereto --baseUrl <baseUrl> --key <key>
+typora2chevereto --baseUrl <baseUrl> --key <key>
 ```
 
 其中：
