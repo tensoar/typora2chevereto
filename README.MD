@@ -12,6 +12,11 @@
 typora2chevereto --baseUrl <baseUrl> --key <key>
 ```
 
+如:
+```bash
+typora2chevereto --baseUrl https://mysite.com --key eaoskdjfnsawefdsfswead
+```
+
 其中：
 
 * `baseUrl`: `chevereto`站点地址,`http`或`https`
