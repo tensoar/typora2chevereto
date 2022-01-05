@@ -12,15 +12,16 @@
 typora2chevereto --baseUrl <baseUrl> --key <key>
 ```
 
-如:
-```bash
-typora2chevereto --baseUrl https://mysite.com --key eaoskdjfnsawefdsfswead
-```
-
 其中：
 
 * `baseUrl`: `chevereto`站点地址,`http`或`https`
 * `key`: 密钥,管理员账号登录,`仪表盘`→`设置`→`API`中获取
+
+
+如:
+```bash
+typora2chevereto --baseUrl https://mysite.com --key eaoskdjfnsawefdsfswead
+```
 
 ## 上传至某一用户
 
