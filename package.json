@@ -9,7 +9,8 @@
   "scripts": {
     "start": "npx tsc && node dist/typora2checereto.js",
     "packageWin": "pkg . -t node14-win-x64 --out-path ./out",
-    "packageLinux": "pkg . -t node14-linux-x64 --out-path ./out"
+    "packageLinux": "pkg . -t node14-linux-x64 --out-path ./out",
+    "packageMac": "pkg . -t node14-macos-x64 --out-path ./out"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.178",
